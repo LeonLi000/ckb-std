@@ -6,7 +6,7 @@ use alloc::vec::Vec;
 use ckb_types::{packed::*, prelude::*};
 
 /// Default buffer size
-pub const BUF_SIZE: usize = 1024;
+pub const BUF_SIZE: usize = 4096;
 
 /// Load tx hash
 ///
